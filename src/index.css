@@ -6,12 +6,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(222,123,250);
-
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+  .logo-corner img{
+    height: 8rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+  @keyframes move {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(.9);
+    }
+    75% {
+      transform: scale(1);
+    }
+  }
+  .logo-corner img:hover {
+    animation: move 2000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+  }
+.App-logo {
+  height: 70vmin;
+  pointer-events: none;
 }
 
 .App .App-header{
@@ -20,9 +47,8 @@ code {
   justify-content: center;
 }
 
-ul{
-
-  align-items: center;
+.App {
+  text-align: center;
 }
 
 .topic-list li {
