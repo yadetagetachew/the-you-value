@@ -1,11 +1,20 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Playfair Display SC', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(222,123,250);
+  background-image: url("./background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  back
+}
+
+h1{
+  font-size: 7rem;
+  margin: 5rem;
+  color: aliceblue;
 }
 
 code {
@@ -41,10 +50,11 @@ code {
   pointer-events: none;
 }
 
-.App .App-header{
+.App-header{
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 5rem;
 }
 
 .App {
@@ -56,12 +66,21 @@ code {
   display: inline;
   font-size: 30px;
   flex-direction: row;
-  background-color: rgb(235,254,41);
+  background-color: rgb(255,235,2);
   margin: 5rem;
   padding: 1rem;
+  border-radius: 30px;color: rgb(20, 20, 20);
+}
+.topic-list{
+  margin-top: 7rem;
 }
 
 @media only screen and (max-width: 900px) {
   .topic-list li {
     display: block;  }
+}
+.Calendly{
+  height:580px;
+  min-width:320px;
+
 }

@@ -1,16 +1,18 @@
 import React from 'react'
-import Hero from './Hero';
+import Header from './Header';
 import Navbar from './Navbar';
 import Topics from './Topics'
+// import { PopupButton } from "react-calendly";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+      <Header />
       <Topics />
+      {/* <PopupButton /> */}
     </div>
   );
-}
+};
 
 export default App;
