@@ -7,13 +7,16 @@ body {
   background-image: url("./background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  back
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  font-size: 7vw;
 }
 
 h1{
-  font-size: 7rem;
-  margin: 5rem;
+  font-size: 7vw;
+  margin: 4rem;
   color: aliceblue;
 }
 
@@ -24,7 +27,7 @@ code {
 
 
   .logo-corner img{
-    height: 8rem;
+    height: 5rem;
     position: absolute;
     top: 1rem;
     left: 1rem;
@@ -67,12 +70,12 @@ code {
   font-size: 30px;
   flex-direction: row;
   background-color: rgb(255,235,2);
-  margin: 5rem;
+  margin: 5vw;
   padding: 1rem;
   border-radius: 30px;color: rgb(20, 20, 20);
 }
 .topic-list{
-  margin-top: 7rem;
+  margin-top: 6vh;
 }
 
 @media only screen and (max-width: 900px) {
@@ -82,5 +85,4 @@ code {
 .Calendly{
   height:580px;
   min-width:320px;
-
 }
