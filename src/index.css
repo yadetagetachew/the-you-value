@@ -80,7 +80,8 @@ code {
 
 @media only screen and (max-width: 900px) {
   .topic-list li {
-    display: block;  }
+    display: block; 
+  }
 }
 .Calendly{
   height:580px;
